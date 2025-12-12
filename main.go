@@ -25,6 +25,13 @@ type CheckStatus struct{}
 func (m *ChecksTest) CheckMatias(
 	ctx context.Context,
 ) *CheckStatus {
+	// one
+	// two
+	// three
+	// four
+	// five
+	// six
+	// bar
 	if m.Secret != nil {
 		fmt.Println(m.Secret.Plaintext(ctx))
 	}
