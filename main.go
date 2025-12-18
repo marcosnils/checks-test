@@ -28,6 +28,7 @@ func (m *ChecksTest) CheckMatias(
 	// foo
 	// bar
 	// baz
+	// test-demo
 	if m.Secret != nil {
 		fmt.Println(m.Secret.Plaintext(ctx))
 	}
