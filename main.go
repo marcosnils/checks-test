@@ -26,6 +26,7 @@ func (m *ChecksTest) CheckMatias(
 	ctx context.Context,
 ) *CheckStatus {
 	// one
+	// two
 	if m.Secret != nil {
 		fmt.Println(m.Secret.Plaintext(ctx))
 	}
