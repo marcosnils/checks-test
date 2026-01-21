@@ -3,7 +3,6 @@ package main
 import (
 	"context"
 	"fmt"
-	"time"
 
 	"dagger/checks-test/internal/dagger"
 )
@@ -28,18 +27,10 @@ func (m *ChecksTest) CheckMatias(
 	ctx context.Context,
 ) *CheckStatus {
 	// one
-	// two
-	// three
-	// four
-	// five
-	// six
-	// seven
 	if m.Secret != nil {
 		fmt.Println(m.Secret.Plaintext(ctx))
 	} else {
 		fmt.Println("Secret is nil")
 	}
-
-	time.Sleep(10 * time.Minute)
 	return &CheckStatus{}
 }
