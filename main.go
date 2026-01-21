@@ -22,6 +22,7 @@ func New(
 type CheckStatus struct{}
 
 // +check
+// +cache=never
 func (m *ChecksTest) CheckMatias(
 	ctx context.Context,
 ) *CheckStatus {
