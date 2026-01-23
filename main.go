@@ -31,6 +31,7 @@ func (m *ChecksTest) CheckMatias(
 	// three
 	// four
 	// five
+	// six
 	if m.Secret != nil {
 		fmt.Println(m.Secret.Plaintext(ctx))
 	} else {
