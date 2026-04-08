@@ -1,5 +1,4 @@
-/dagger.gen.go
-/internal/dagger
-/internal/querybuilder
-/internal/telemetry
+/.venv
+/**/__pycache__
+/sdk
 /.env
