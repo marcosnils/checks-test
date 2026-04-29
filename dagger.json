@@ -1,7 +1,14 @@
 {
   "name": "flow",
-  "engineVersion": "v0.20.3",
+  "engineVersion": "v0.20.6",
   "sdk": {
     "source": "python"
-  }
+  },
+  "dependencies": [
+    {
+      "name": "dagger.io",
+      "source": "github.com/dagger/dagger.io@main",
+      "pin": "a3f01229434c395c8017e013be77cb68b480b86b"
+    }
+  ]
 }
